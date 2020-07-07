@@ -30,3 +30,35 @@ font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
+/* TITLE AND NAV DIVS */
+.titleNav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAV BAR */
+
+.navBar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(136, 136, 136);
+}
+
+.navBar ul {
+  justify-content: space-evenly;
+  font-size: large;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 1%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
