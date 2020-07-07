@@ -30,6 +30,15 @@ font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
+/* MAIN TITLE */
+.mainTitle {
+  font-size: x-large;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: -1%;
+  margin-top: -1%;
+  color: rgb(243, 187, 138);
+}
+
 /* TITLE AND NAV DIVS */
 .titleNav {
   width: 100%;
@@ -60,5 +69,11 @@ font-family: 'Montserrat', sans-serif;
   padding: 1%;
   list-style-type: none;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black
 }
 

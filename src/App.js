@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar'
 import MainContainer from './containers/MainContainer'
 import Title from './components/Title'
@@ -8,10 +7,10 @@ import Title from './components/Title'
 function App() {
   return (
     <div className="App">
-    <div className='titleNav'>
-      <Title />
-       <NavBar />
-       </div>
+      <div className='titleNav'>
+        <Title />
+        <NavBar />
+      </div>
         {/* <div className='landing-page-temp'>
           <p>anx-ish</p>
           <p>has your mental health nose-dived in quarantine?</p>
