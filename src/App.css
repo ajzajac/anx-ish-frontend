@@ -3,7 +3,7 @@
   display: flex;
 }
 
-.landing-page-left {
+.landing-page-temp {
 color: rgb(243, 187, 138);
 width: 100%;
 font-size: xx-large;
@@ -11,7 +11,7 @@ margin: auto;
 float: left
 }
 
-.landing-page-left p:first-child {
+.landing-page-temp p:first-child {
 font-size: 32vh;
 font-style: normal;
 margin-bottom: -3%;
@@ -19,23 +19,14 @@ margin-top: 12%;
 font-family: 'Montserrat', sans-serif;
 }
 
-.landing-page-left p {
+.landing-page-temp p {
   font-family: 'Raleway', sans-serif;
   font-size: 3vh;
 }
 
-.landing-page-left p:last-child {
+.landing-page-temp p:last-child {
   margin-top: 13%;
   font-size: 1.8vh;
   font-weight: bold;
-}
-
-.landing-page-right {
-width: 30%;
-}
-
-.landing-page-right img {
-  height: 100%;
-  width: 100%;
 }
 
