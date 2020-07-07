@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
 }
 
 .landing-page-temp {
@@ -35,7 +36,7 @@ font-family: 'Montserrat', sans-serif;
   font-size: x-large;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: -1%;
-  margin-top: -1%;
+  margin-top: -2%;
   color: rgb(243, 187, 138);
 }
 
@@ -75,6 +76,7 @@ font-family: 'Montserrat', sans-serif;
   width: 100%;
   margin: auto;
   padding: 1%;
+  padding-bottom: 1.5%;
   list-style-type: none;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
@@ -117,11 +119,49 @@ font-family: 'Montserrat', sans-serif;
 
 .plansPage {
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 .plansPage p {
-  margin-top: 15%;
   font-size: large;
+}
+
+.planPageTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  margin-top: 2%;
+}
+
+.plansGrid {
+  flex-direction: row;
+  margin: auto;
+}
+
+/* PLAN CARDS */
+
+.planCard {
+  background-color: rgb(235, 235, 235);
+  margin: auto;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 2%;
+  box-shadow: 1px 1px 2px darkgray;
+  transition: all .2s ease-in-out;
+}
+
+.planCard:hover {
+  background-color: rgb(223, 222, 222);
+}
+
+.planCard img {
+  height: 50%;
+  width: 40%;
+  box-shadow: 1px 1px 4px darkgray;
 }
 
 /* TEAM PAGE */
@@ -159,3 +199,4 @@ font-family: 'Montserrat', sans-serif;
   border-color: rgb(136,136,136);
   border-width: 1px;
 }
+
