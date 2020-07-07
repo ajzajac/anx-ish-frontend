@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar'
 import MainContainer from './containers/MainContainer'
 import Title from './components/Title'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </div> */}
         
           <MainContainer />
+          <Footer />
         </div>
         
     </div>

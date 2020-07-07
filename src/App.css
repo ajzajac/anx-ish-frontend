@@ -39,6 +39,14 @@ font-family: 'Montserrat', sans-serif;
   color: rgb(243, 187, 138);
 }
 
+.mainTitle a {
+  text-decoration: none;
+}
+.mainTitle a:visited {
+  text-decoration: none;
+  color: rgb(243, 187, 138)
+}
+
 /* TITLE AND NAV DIVS */
 .titleNav {
   width: 100%;
@@ -77,3 +85,77 @@ font-family: 'Montserrat', sans-serif;
   color: black
 }
 
+/* MAIN PAGE CONTAINER */
+
+.mainContainer {
+
+}
+
+/* ABOUT PAGE */
+
+.aboutPage {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutPage p {
+  margin-top: 15%;
+  font-size: large;
+}
+
+/* HOW IT WORKS PAGE */
+
+.howItWorksPage {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.howItWorksPage p {
+  margin-top: 15%;
+  font-size: large;
+}
+
+/* PLANS PAGE */
+
+.plansPage {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.plansPage p {
+  margin-top: 15%;
+  font-size: large;
+}
+
+/* TEAM PAGE */
+
+.teamPage {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.teamPage p {
+  margin-top: 15%;
+  font-size: large;
+}
+
+/* SHOP PAGE */
+
+.shopPage {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.shopPage p {
+  margin-top: 15%;
+  font-size: large;
+}
+
+.footer {
+  height: 3%;
+  margin-top: 25%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  left:0;
+  bottom:0;
+  right:0;
+  border-top: solid;
+  clear: both;
+  border-color: rgb(136,136,136);
+  border-width: 1px;
+}
