@@ -5,20 +5,29 @@
 
 .landing-page-left {
 color: rgb(243, 187, 138);
-width: 60%;
+width: 100%;
 font-size: xx-large;
-margin-top: 6%;
+margin: auto;
 float: left
 }
 
 .landing-page-left p:first-child {
-font-size: 20vh;
+font-size: 32vh;
+font-style: normal;
+margin-bottom: -3%;
+margin-top: 12%;
 font-family: 'Montserrat', sans-serif;
-text-shadow: 2px 2px 8px rgb(250, 180, 119);
+}
+
+.landing-page-left p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vh;
 }
 
 .landing-page-left p:last-child {
-  font-style: italic;
+  margin-top: 13%;
+  font-size: 1.8vh;
+  font-weight: bold;
 }
 
 .landing-page-right {
