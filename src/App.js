@@ -7,10 +7,9 @@ function App() {
     <div className="App">
         <div className='landing-page-left'>
           <p>anx-ish</p>
-          <p>...coming soon!</p>
-        </div>
-        <div className='landing-page-right'>
-          <img src={flowers}></img>
+          <p>has your mental health nose-dived in quarantine?</p>
+          <p style={{marginLeft: "15%", marginTop: "3%", fontFamily: 'Montserrat Subrayada, sans-serif', textShadow: "1px 1px 8px rgb(243, 187, 138)" }}>join the club.</p>
+          <p>COMING SOON!</p>
         </div>
     </div>
   );
