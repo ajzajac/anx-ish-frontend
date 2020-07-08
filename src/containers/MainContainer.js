@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Home from '../components/Home'
 import HowItWorks from '../components/HowItWorks'
 import About from '../components/About'
-import Plans from '../components/Plans'
-import Team from '../components/Team'
+import Plans from './Plans'
+import Team from './Team'
 import Shop from '../components/Shop'
 
 
@@ -18,8 +18,8 @@ export default class MainContainer extends Component {
                         <Route exact path='/'><Home></Home></Route>
                         <Route exact path='/about'><About></About></Route>
                         <Route exact path='/howitworks'><HowItWorks></HowItWorks></Route>
-                        <Route exact path='/plans'><Plans></Plans></Route>
-                        <Route exact path='/team'><Team></Team></Route>
+                        {/* <Route exact path='/plans'><Plans></Plans></Route>
+                        <Route exact path='/team'><Team></Team></Route> */}
                         <Route exact path='/shop'><Shop></Shop></Route>
                     </Switch>
                 </Router>

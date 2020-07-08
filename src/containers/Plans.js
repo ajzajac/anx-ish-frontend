@@ -1,5 +1,5 @@
 import React from 'react'
-import Plan from './Plan'
+import Plan from '../components/Plan'
 
 export default function Plans() {
     return (
