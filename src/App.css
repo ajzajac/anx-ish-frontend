@@ -204,3 +204,30 @@ font-family: 'Montserrat', sans-serif;
   border-width: 1px;
 }
 
+/* BLOGS PAGE */
+
+.blogsPage {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.blogCard {
+  background-color: rgb(231, 230, 230);
+  margin: auto;
+  padding: 1%;
+  min-width: 65%;
+  max-width: 65%;
+  box-shadow: 1px 1px 3px rgb(2, 2, 2);
+}
+
+.blogTitle {
+  margin-bottom: 2%;
+  margin-top: -2%
+}
+
+.blogPost {
+  padding: 3%
+}

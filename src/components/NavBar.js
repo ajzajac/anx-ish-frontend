@@ -6,6 +6,7 @@ export default function NavBar() {
             <ul>
                 <li><a href='/about'>About</a></li>
                 <li><a href='/howitworks'>How It Works</a></li>
+                <li><a href='/blogs'>Blog</a></li>
                 {/* <li><a href='/plans'>Plans</a></li>
                 <li><a href='/team'>Team</a></li> */}
                 <li><a href='/shop'>Shop</a></li>

@@ -7,7 +7,7 @@ import About from '../components/About'
 import Plans from './Plans'
 import Team from './Team'
 import Shop from '../components/Shop'
-
+import BlogsPage from './BlogsPage'
 
 export default class MainContainer extends Component {
     render() {
@@ -18,6 +18,7 @@ export default class MainContainer extends Component {
                         <Route exact path='/'><Home></Home></Route>
                         <Route exact path='/about'><About></About></Route>
                         <Route exact path='/howitworks'><HowItWorks></HowItWorks></Route>
+                        <Route exact path='/blogs'><BlogsPage></BlogsPage></Route>
                         {/* <Route exact path='/plans'><Plans></Plans></Route>
                         <Route exact path='/team'><Team></Team></Route> */}
                         <Route exact path='/shop'><Shop></Shop></Route>
