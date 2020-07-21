@@ -16,7 +16,7 @@ font-size: 32vh;
 font-style: normal;
 margin-bottom: -3%;
 margin-top: 12%;
-font-family: 'Montserrat', sans-serif;
+
 }
 
 .landing-page-temp p {
@@ -30,3 +30,16 @@ font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
+@media only screen and (max-width: 768px) {
+
+
+  .landing-page-temp p:first-child {
+    font-size: 20vh;
+  }
+
+  .landing-page-temp p {
+    padding: 5%;
+    font-size: large;
+  }
+
+}
