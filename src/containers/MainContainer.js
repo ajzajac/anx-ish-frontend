@@ -16,14 +16,16 @@ export default class MainContainer extends Component {
         return (
             <div>
                 <NavBar/>
-                    <Switch>
-                        <Route exact path='/' render={(routerProps) => <LandingPage {...routerProps}/>} />
-                        <Route exact path='/products' render={(routerProps) => <Products {...routerProps}/>} />
-                        <Route exact path='/membership' render={(routerProps) => <Membership {...routerProps}/>} />
-                        <Route exact path='/stories' render={(routerProps) => <Stories {...routerProps}/>} />
-                        <Route exact path='/login' render={(routerProps) => <Login {...routerProps}/>} />
-                        <Route exact path='/signup' render={(routerProps) => <SignUp {...routerProps}/>} />
-                    </Switch>
+                    <div className='contentView'>
+                        <Switch>
+                            <Route exact path='/' render={(routerProps) => <LandingPage {...routerProps}/>} />
+                            <Route exact path='/products' render={(routerProps) => <Products {...routerProps}/>} />
+                            <Route exact path='/membership' render={(routerProps) => <Membership {...routerProps}/>} />
+                            <Route exact path='/stories' render={(routerProps) => <Stories {...routerProps}/>} />
+                            <Route exact path='/login' render={(routerProps) => <Login {...routerProps}/>} />
+                            <Route exact path='/signup' render={(routerProps) => <SignUp {...routerProps}/>} />
+                        </Switch>
+                    </div>
             </div>
         )
     }

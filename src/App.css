@@ -1,45 +1,116 @@
 .App {
   text-align: center;
+  height: 130%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  overflow-y: scroll;
+}
+
+/* NAV BAR */
+
+.navBar {
   display: flex;
+  width: 100%;
+  padding-top: 0%;
+  margin-bottom: 3%;
+  top: 0;
+  height: 9%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 2;
 }
 
-.landing-page-temp {
-color: rgb(243, 187, 138);
-width: 100%;
-font-size: xx-large;
-margin: auto;
-float: left
+.navLeft {
+float: left;
+width: 50%;
+text-align: left;
 }
 
-.landing-page-temp p:first-child {
-font-size: 32vh;
-font-style: normal;
-margin-bottom: -3%;
-margin-top: 12%;
-
+.navLeft ul {
+  margin-left: -2%
 }
 
-.landing-page-temp p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 3vh;
+.navLeft li {
+  margin-left: 2%
 }
 
-.landing-page-temp p:last-child {
-  margin-top: 13%;
-  font-size: 1.8vh;
-  font-weight: bold;
+.navRight {
+width: 50%;
+margin-top: .7%;
+text-align: right;
 }
 
-@media only screen and (max-width: 768px) {
+.navRight li {
+  margin-right: 4%;
+}
 
+.navLeft li:first-of-type {
+  font-size: xx-large;
+  color: rgba(221, 117, 32, 0.986);
+  font-family: 'Yeseva One';
+}
 
-  .landing-page-temp p:first-child {
-    font-size: 20vh;
-  }
+.navBar li {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: -1%;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
 
-  .landing-page-temp p {
-    padding: 5%;
-    font-size: large;
-  }
+.navBar ul {
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  margin-top: 1%; */
+  
+}
 
+.navBar a:hover {
+  text-decoration: none;
+  color: rgb(250, 178, 115);
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+}
+
+/* MAIN CONTAINER / CONTENT VIEW */
+
+.contentView {
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+  background-color: peachpuff;
+}
+
+/* LANDING PAGE */
+
+.landingPage {
+  height: 600px;
+}
+
+.landingPage p:first-of-type{
+  font-size: 200px;
+  margin: 0;
+  color: white;
+  font-family: 'Yeseva One';
+}
+
+.landingPage p{
+  font-family: 'Montserrat';
+  font-size: 3.2em;
+  letter-spacing: 3px;
+  margin: 0;
 }
